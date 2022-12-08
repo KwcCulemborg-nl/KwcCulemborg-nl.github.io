@@ -1,0 +1,132 @@
+body {  /*dit zorgd voor de achtergrond*/
+	font-family: arial;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	background-image: url(background.jpg);
+} 
+	
+
+
+
+.box{
+	position: relative;
+	left: 755px;
+	top: 566px;
+	width: 10px;
+	height: 0px;
+	border-color: transparent;
+}
+.box input{
+	width: 21px;
+	height: 21px;
+	border-color: transparent;
+}
+
+
+.InputBox {
+	position: relative;
+	width: 250px;
+	left: 760px;
+	top: 414px;
+	border-color: transparent;
+	
+	
+}
+.InputBox input {
+	width: 376px;
+	padding: 10px;
+	height: 17px;
+	
+	
+	
+	
+	
+}
+.knop{
+	position: absolute;
+	top: 535px;
+	left: 1020px;
+width: 1000px;
+}
+button{
+border-color: blue;
+width: 110px;
+color: white;
+background-color: blue;
+ border-radius: 0px;
+ height: 33px;
+font-family: "Gill Sans", sans-serif;
+  font-size: 20px;  
+
+}
+
+
+.knop1{
+border-color: black;
+width: 50px;
+color: black;
+background-color: #FFD700;
+ border-radius: 3px;
+ height: 40px;
+}
+
+
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+
+
+.scales{
+position: relative;
+width: 250px;
+left: 783px;
+top: 232px;
+width: 200%;
+
+}
+
+
+
+.horns{
+	width: 100px;
+	height: 30px;
+}
+
+
+
+
+ .InputBox1 {
+	position: relative;
+	width: 250px;
+	left: 760px;
+	top: 514px;
+	border-color: transparent;
+	
+	
+}
+.InputBox1 input {
+	width: 1px;
+	padding: 10px;
+	height: 0px;
+	border-color: transparent;
+	
+	
+	
+}
+html,body{ /*dit is voor de start pagina dat de afbeelding helemaal op je scherm staat*/
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
